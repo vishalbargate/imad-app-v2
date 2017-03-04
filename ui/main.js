@@ -8,8 +8,8 @@ element.innerHTML = 'new value';
  
  //move the image
  var img = document.getElementById('madi');
- var marginLeft =0;
- function moveRight() {
+ var marginLeft = 0;
+ function moveRight () {
      margingLeft = marginLeft + 10;
       img.style.marginLeft = margingLeft + 'px';
  }
